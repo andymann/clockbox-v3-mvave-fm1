@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: MPL-2.0
+# CLOCKBOX words for a screen reader (fm1-reader): the text on the screen <TAB> what to say.
+# url: https://andymann.github.io/clockbox-v3-mvave-fm1/words/
+CLOCKBOX	clock box
+QRS	quantized restart
+BPM	B P M

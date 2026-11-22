@@ -1,0 +1,115 @@
+# The manual's screenshots (app/docs/img): tools/build.py app --host, then
+#   app/build/host/clockbox_host app/tests/screens.txt app/docs/img
+wait 2300
+turn SELECT 26
+wait 1600
+shot screen-main.png
+tap PLAY
+wait 600
+shot screen-playing.png
+tap PLAY
+wait 300
+shot screen-qrs.png
+wait 2000
+press HOME
+wait 40
+shot screen-shift.png
+press REC
+wait 40
+shot screen-qrs-offset.png
+release REC
+release HOME
+wait 1500
+press HOME
+press PLAY
+wait 30
+release PLAY
+release HOME
+press HOME
+press PLAY
+wait 30
+release PLAY
+release HOME
+wait 1500
+midi TRS FA
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+midi TRS F8
+wait 19
+shot screen-follow.png

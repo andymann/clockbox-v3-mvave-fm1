@@ -1,0 +1,22 @@
+# CLOCKBOX build settings (tools/build.py)
+name = "CLOCKBOX"              # APP_NAME is in app.h; this names the build's files
+id_prefix = "FM-1_77"          # CHANGE: a prefix nobody else uses (check thefirmwarehub.com); dev FM-1_7700, releases FM-1_77XXYYZZ
+usb_manufacturer = "socialmidi"
+usb_product = "CLOCKBOX FM-1"
+o2 = []                        # separate units compiled at -O2 (an app's DSP)
+words = "words.tsv"
+ble = true                     # Bluetooth MIDI (--no-ble builds without it)
+ble_central = false            # (the ClockBox only sends: no Bluetooth MIDI devices to connect to)
+ble_stack = "own"              # fm1-base's own BLE stack (MPL-2.0): no JieLi SDK libraries needed
+# the site (tools/make_site.py, tools/publish_site.sh)
+tagline = "ClockBox v3 MIDI master clock on the FM-1"
+repo = "https://github.com/andymann/clockbox-v3-mvave-fm1"
+licence = "MPL-2.0"
+credits = "A port of ClockBox v3 (socialmidi.com) onto fm1-base by Charles Vestal; tap tempo after Damien Clarke's TapTempo (MIT)."                   # a sentence for the installer's footer: what your firmware is built from
+# firmware.json, for firmware hubs (docs/FIRMWARE-JSON.md): the build writes it from these and the keys above
+author = "Andy Fischer"
+description = "ClockBox v3 (github.com/Andymann/clockbox-v3) on the FM-1: a 24 PPQN MIDI master clock over USB and Bluetooth MIDI with Quantized Restart, follow modes for clock from the TRS jack or USB, tap tempo, three tempo presets that jump or fade, and a sync pulse on the audio out."
+tags = ["utility"]             # from the list in docs/FIRMWARE-JSON.md; the build refuses another
+install = ""
+site = ""
+screenshot = "app/docs/img/screen-playing.png"   # square PNG, 240 x 240, for firmware hubs

@@ -1,0 +1,13 @@
+# build output (app/build/: firmware, host simulator, screenshots, WAVs)
+build/
+app/build/
+app/web/words/
+# local Python env and toolchains
+.venv/
+.toolchain/
+__pycache__/
+*.pyc
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
