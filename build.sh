@@ -1,7 +1,7 @@
 #!/bin/sh
 # SPDX-License-Identifier: MPL-2.0
 # Build CLOCKBOX with fm1-base (base/tools/build.py). Used by the release workflow and `make fw`.
-#   ./build.sh                    app/build/clockbox.fwsc  (dev identity FM-1_7700)
+#   ./build.sh                    app/build/clockbox.fwsc  (dev identity FM-1_13097700)
 #   ./build.sh --host             the host simulator: app/build/host/clockbox_host
 #   ./build.sh --web              the browser emulator: app/build/emu/
 #   ./build.sh --release X.Y      app/build/clockbox-X.Y.fwsc

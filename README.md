@@ -58,7 +58,7 @@ linux/amd64 container). fm1-base's [README](https://github.com/charlesvestal/fm1
 | Command | What |
 |---|---|
 | `make host` | builds the host simulator and runs every check in `app/tests/basic.txt`, plus the manual's screenshots. Writes PNGs and WAVs to `app/build/host` |
-| `make fw` | builds `app/build/clockbox.fwsc` (development identity `FM-1_7700`) |
+| `make fw` | builds `app/build/clockbox.fwsc` (development identity `FM-1_13097700`) |
 | `make install` | flashes `app/build/clockbox.fwsc` to a connected FM-1 |
 | `make web` | builds the browser emulator in `app/build/emu` (needs emcc) |
 | `make release V=0.1` | builds `app/build/clockbox-0.1.fwsc` |
@@ -69,7 +69,7 @@ Pushing a tag `vX.Y` builds, tests, attests and publishes a release on GitHub
 
 Before the first release, fill in `app/fm1.toml`:
 
-- `id_prefix`: a package identity nobody else uses (check thefirmwarehub.com). `FM-1_77` is a placeholder.
+- `id_prefix` is `FM-1_130977`: release v0.1 gets the identity `FM-1_130977000100`.
 - `install` and `site`: the release build refuses to run while these are empty.
 
 ## Layout
